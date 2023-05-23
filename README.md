@@ -1,5 +1,7 @@
 # BRACE30
 
+![BRACE30](/Images/BRACE30_ONDESK_ANGLE.jpg)
+
 A 30% extended numpad, running on the tiny Adafruit QT PY 2040. 
 
 My first handwired keyboard, and one of my first CAD designs overall.
@@ -44,14 +46,24 @@ My first handwired keyboard, and one of my first CAD designs overall.
 * See CURA profile in CAD files
 
 ## Construction
+![BRACE30 plate](/Images/BRACE30_PLATE.jpg)
+
 1. I first soldered all the rows, with the diode legs, then all the columns, see [Mad Mod Labs](https://www.youtube.com/watch?v=iv__343ZwE0&t=1068s)
 2. I then soldered each column and row to a GPIO pin each
+
+![BRACE30 cables](/Images/BRACE30_CABLES.jpg)
+
+![BRACE30 soldered](/Images/BRACE30_SOLDERED.jpg)
+
 3. Cut a hole for the USB C cable
+
+![BRACE30 cutout](/Images/BRACE30_CUTOUT.jpg)
+
 4. Downloaded and installed CircuitPython onto the board, and then [KMK](https://github.com/KMKfw/kmk_firmware)
 5. Sanded the sides until smooth
 6. Screwed together the case and glued the microcontroller to the port section
 
-
+![BRACE30 switchplate](/Images/BRACE30_NOCAP.jpg)
 ---
 
 ## Known issues
