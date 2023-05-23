@@ -1,5 +1,6 @@
 # BRACE30
 
+Excuse the assorted keycaps :o
 ![BRACE30](/Images/BRACE30_ONDESK_ANGLE.jpg "BRACE30")
 
 A 30% extended numpad, running on the tiny Adafruit QT PY 2040. 
