@@ -76,3 +76,8 @@ My first handwired keyboard, and one of my first CAD designs overall.
 - [ ] Microcontroller does not fit into slot made for it, needs an additional tolerance of about 0.2-0.3 mm
 - [ ] KMK is for some reason flipped
 - [ ] Work around for Nordic keys
+
+## Future plans
+- [ ] Print a new case
+- [ ] Make firmware more advanced
+- [ ] Get uniform keycaps
