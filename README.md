@@ -5,6 +5,8 @@ Excuse the assorted keycaps :o (I did not have all of them)
 
 A 30% extended numpad, running on the tiny Adafruit QT PY 2040. 
 
+I only designed this to get a shortcut for {}, [], and / - hence "BRACE"
+
 My first handwired keyboard, and one of my first CAD designs overall.
 
 ---
@@ -56,7 +58,7 @@ My first handwired keyboard, and one of my first CAD designs overall.
 
 ![BRACE30 soldered](/Images/BRACE30_SOLDERED.jpg "BRACE30 soldered")
 
-3. Cut a hole for the USB C cable
+3. Extended the hole for the USB C cable (check "Known Issues")
 
 ![BRACE30 cutout](/Images/BRACE30_USBC_CUTOUT.jpg "BRACE30 cutout")
 
