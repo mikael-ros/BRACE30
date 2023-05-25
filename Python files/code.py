@@ -76,13 +76,13 @@ The following is the layout I soldered, though I do not recommend it for organiz
 
 keyboard.keymap = [
     [
-        KC.INS,           KC.CTRL(KC.C), KC.CTRL(KC.V), KC.CTRL(KC.X),       KC.NLCK,
-        KC.TO(1),         KC.MPRV,       KC.MPLY,       KC.MNXT,             KC.BSPACE,
+        KC.INS,           KC.LCTRL(KC.C), KC.LCTRL(KC.V), KC.LCTRL(KC.X),       KC.NLCK,
+        KC.TO(1),         KC.MPRV,        KC.MPLY,        KC.MNXT,              KC.BSPACE,
 
-        KC.LSHIFT(KC.N7), KC.P7,         KC.P8,         KC.P9,               KC.RALT(KC.N7),
-        KC.PAST,          KC.P4,         KC.P5,         KC.P6,               KC.RALT(KC.N0),
-        KC.PMNS,          KC.P1,         KC.P2,         KC.P3,               KC.RALT(KC.N8),
-        KC.PPLS,          KC.DEL,        KC.P0,         KC.LSHIFT(KC.N0),    KC.RALT(KC.N9),
+        KC.LSHIFT(KC.N7), KC.P7,          KC.P8,          KC.P9,                KC.RALT(KC.N7),
+        KC.PAST,          KC.P4,          KC.P5,          KC.P6,                KC.RALT(KC.N0),
+        KC.PMNS,          KC.P1,          KC.P2,          KC.P3,                KC.RALT(KC.N8),
+        KC.PPLS,          KC.DEL,         KC.P0,          KC.LSHIFT(KC.N0),     KC.RALT(KC.N9),
     ],
     [
         KC.ESC,    KC.F1,   KC.F2,    KC.F3,   KC.F4,
