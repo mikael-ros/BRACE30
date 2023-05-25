@@ -74,7 +74,7 @@ My first handwired keyboard, and one of my first CAD designs overall.
 - [ ] Plate height is higher than TH80, which was not the plan, but it does not affect anything
 - [ ] Tolerances on plate are a tad too loose, which could be fixed by subtracting about 0.1 mm from the holes - this means switches easily pop out currently (unless you decide to hot glue them)
 - [ ] Microcontroller does not fit into slot made for it, needs an additional tolerance of about 0.2-0.3 mm
-- [ ] KMK is for some reason flipped
+- [x] KMK is for some reason flipped
 - [ ] Work around for Nordic keys
 
 ## Future plans
