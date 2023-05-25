@@ -85,13 +85,13 @@ keyboard.keymap = [
         KC.PPLS,          KC.DEL,         KC.P0,          KC.LSHIFT(KC.N0),     KC.RALT(KC.N9),
     ],
     [
-        KC.ESC,    KC.F1,   KC.F2,    KC.F3,   KC.F4,
-        KC.TO(0),  KC.N1,   KC.N2,    KC.N3,   KC.N4,
+        KC.ESC,    KC.F1,    KC.F2,    KC.F3,   KC.F4,
+        KC.TO(0),  KC.N1,    KC.N2,    KC.N3,   KC.N4,
 
-        KC.TAB,    KC.Q,    KC.W,     KC.R,    KC.A,
-        KC.C,      KC.A,    KC.S,     KC.D,    KC.A,
-        KC.LSHIFT, KC.T,    KC.B,     KC.E,    KC.A,
-        KC.Z,      KC.CTRL, KC.SPACE, KC.A,    KC.A,
+        KC.TAB,    KC.Q,     KC.W,     KC.R,    KC.A,
+        KC.C,      KC.A,     KC.S,     KC.D,    KC.A,
+        KC.LSHIFT, KC.T,     KC.B,     KC.E,    KC.A,
+        KC.Z,      KC.LCTRL, KC.SPACE, KC.A,    KC.A,
     ]
 ]
 if __name__ == '__main__':
