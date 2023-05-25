@@ -1,8 +1,11 @@
 # BRACE30
 
-![BRACE30](/Images/BRACE30_ONDESK_ANGLE.jpg)
+Excuse the assorted keycaps :o (I did not have all of them)
+![BRACE30](/Images/BRACE30_ONDESK_ANGLE.jpg "BRACE30")
 
 A 30% extended numpad, running on the tiny Adafruit QT PY 2040. 
+
+I only designed this to get a shortcut for {}, [], and / - hence "BRACE"
 
 My first handwired keyboard, and one of my first CAD designs overall.
 
@@ -46,24 +49,24 @@ My first handwired keyboard, and one of my first CAD designs overall.
 * See CURA profile in CAD files
 
 ## Construction
-![BRACE30 plate](/Images/BRACE30_PLATE.jpg)
+![BRACE30 plate](/Images/BRACE30_PLATE.jpg "BRACE30 plate")
 
 1. I first soldered all the rows, with the diode legs, then all the columns, see [Mad Mod Labs](https://www.youtube.com/watch?v=iv__343ZwE0&t=1068s)
 2. I then soldered each column and row to a GPIO pin each
 
-![BRACE30 cables](/Images/BRACE30_CABLES.jpg)
+![BRACE30 cables](/Images/BRACE30_CABLES.jpg "BRACE30 cables")
 
-![BRACE30 soldered](/Images/BRACE30_SOLDERED.jpg)
+![BRACE30 soldered](/Images/BRACE30_SOLDERED.jpg "BRACE30 soldered")
 
-3. Cut a hole for the USB C cable
+3. Extended the hole for the USB C cable (check "Known Issues")
 
-![BRACE30 cutout](/Images/BRACE30_CUTOUT.jpg)
+![BRACE30 cutout](/Images/BRACE30_USBC_CUTOUT.jpg "BRACE30 cutout")
 
 4. Downloaded and installed CircuitPython onto the board, and then [KMK](https://github.com/KMKfw/kmk_firmware)
 5. Sanded the sides until smooth
 6. Screwed together the case and glued the microcontroller to the port section
 
-![BRACE30 switchplate](/Images/BRACE30_NOCAP.jpg)
+![BRACE30 switchplate](/Images/BRACE30_NOCAP.jpg "BRACE30 switchplate")
 ---
 
 ## Known issues
@@ -71,3 +74,10 @@ My first handwired keyboard, and one of my first CAD designs overall.
 - [ ] Plate height is higher than TH80, which was not the plan, but it does not affect anything
 - [ ] Tolerances on plate are a tad too loose, which could be fixed by subtracting about 0.1 mm from the holes - this means switches easily pop out currently (unless you decide to hot glue them)
 - [ ] Microcontroller does not fit into slot made for it, needs an additional tolerance of about 0.2-0.3 mm
+- [ ] KMK is for some reason flipped
+- [ ] Work around for Nordic keys
+
+## Future plans
+- [ ] Print a new case
+- [ ] Make firmware more advanced
+- [ ] Get uniform keycaps
